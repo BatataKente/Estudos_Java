@@ -5,13 +5,38 @@ import java.util.Scanner;
 public class DesafioDiaSemana {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		resolucaoDesafio(input);
+		input.close();
+	}
+	static void resolucaoDesafio(Scanner input) {
+		System.out.print("Digite o dia: ");
+		String day = input.next();
+		if (day.equalsIgnoreCase("domingo")) {
+			System.out.print(1);
+		} else if ("segunda".equalsIgnoreCase(day)) {
+			System.out.print(2);
+		} else if ("terça".equalsIgnoreCase(day.replace("c", "ç"))) {
+			System.out.print(3);
+		} else if (day.equalsIgnoreCase("quarta")) {
+			System.out.print(4);
+		} else if (day.equalsIgnoreCase("quinta")) {
+			System.out.print(5);
+		} else if (day.equalsIgnoreCase("sexta")) {
+			System.out.print(6);
+		} else if ("sabado".equalsIgnoreCase(day.replace("á", "a"))) {
+			System.out.print(7);
+		} else {
+			System.out.print("Dia inválido!");
+		}
+	}
+	static void solucaoDesafio(Scanner input) {
+		System.out.println(parseDay(input.next()));
 		System.out.println(parseDay(input.next()));
 		System.out.println(parseDay(input.next()));
 		System.out.println(parseDay(input.next()));
 		System.out.println(parseDay(input.next()));
 		System.out.println(parseDay(input.next()));
 		System.out.print(parseDay(input.next()));
-		input.close();
 	}
 	static int parseDay(String day) {
 		if (day.toLowerCase().equals("domingo")) {
