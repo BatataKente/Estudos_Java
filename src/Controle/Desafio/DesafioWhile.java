@@ -8,6 +8,23 @@ public class DesafioWhile {
 		mySolution(input);
 		input.close();
 	}
+	static void solution(Scanner input) {
+		int quantidadeDeNotas = 0;
+		double nota = 0;
+		double total = 0;
+		while(nota != -1) {
+			System.out.print("Informe a nota(ou -1 para sair): ");
+			nota = input.nextDouble();
+			if(nota <=10 && nota >= 0) {
+				quantidadeDeNotas ++;
+				total += nota;
+			} else if (nota != -1) {
+				System.out.print("Nota inválida!\n");
+			}
+		}
+		double media = total/quantidadeDeNotas;
+		System.out.print("A média é " + media);
+	}
 	static void mySolution(Scanner input) {
 		String maizalgum = ""; 
 		double somaDeTodasAsNotas = 0;
