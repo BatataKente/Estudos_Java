@@ -2,7 +2,12 @@ package Controle.Desafio;
 
 public class DesafioFor {
 	public static void main(String[] args) {
-		mySolution(2);
+		solution();
+	}
+	static void solution() {
+		for (String value = "#"; !value.equals("######"); value += "#") {
+			System.out.print(value + "\n");
+		}
 	}
 	static void mySolution(int maxLenght) {
 		for (String valor = "#"; valor.length() <= maxLenght; valor += "#") {
