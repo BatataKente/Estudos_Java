@@ -22,5 +22,6 @@ public class DataTeste {
 				"Queda da URSS: " + outraQueda.formatData() +  "\n" 
 				+ outraQueda.description + "\n"
 		);
+		queda.printData();
 	}
 }
