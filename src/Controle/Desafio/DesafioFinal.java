@@ -7,7 +7,7 @@ public class DesafioFinal {
 	static final int randomNumber = randomNumber();
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		final int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8};
+		final int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 		System.out.print(
 			"1. " + isEvenGreaterThanZeroLesserThanTen(10) +
 			"\n2. " + isLeapYear(366) + 
