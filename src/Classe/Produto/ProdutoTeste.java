@@ -1,4 +1,4 @@
-package Objetos.Classe;
+package Classe.Produto;
 
 public class ProdutoTeste {
 	public static void main(String[] args) {
@@ -6,12 +6,10 @@ public class ProdutoTeste {
 		pI.nome = "Cannabis";
 		pI.preco = 4356.89;
 		pI.desconto = 0.25;
-		
 		var pII = new Produto();
 		pII.nome = "Caneta Preta";
 		pII.preco = 12.56;
 		pII.desconto = 0.29;
-		
 		System.out.println("Nome: " + pI.nome);
 		System.out.printf("Preço final: R$ %.2f\n", pI.precoFinal());
 		System.out.println("Nome: " + pII.nome);
