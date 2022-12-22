@@ -8,4 +8,7 @@ public class Data {
 		this.mes = mes;
 		this.ano = ano;
 	}
+	String formatData() {
+		return dia + "/" + mes + "/" + ano;
+	}
 }
