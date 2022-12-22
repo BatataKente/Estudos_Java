@@ -11,7 +11,7 @@ public class Produto {
 	double precoFinal() {
 		return precoComDesconto(preco, desconto);
 	}
-	double precoComDesconto(double preco, double desconto) {
+	private double precoComDesconto(double preco, double desconto) {
 		return preco * (1 - desconto);
 	}
 }

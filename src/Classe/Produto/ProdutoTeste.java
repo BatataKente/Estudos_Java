@@ -8,9 +8,9 @@ public class ProdutoTeste {
 		pII.desconto = 0.29;
 		System.out.println("Nome: " + pI.nome);
 		System.out.printf("Preço final: R$ %.2f\n", pI.precoFinal());
-		System.out.println("Nome: " + pII.nome);
+		System.out.println("\nNome: " + pII.nome);
 		System.out.printf("Preço final: R$ %.2f\n", pII.precoFinal());
 		double mediaCarrinho = (pI.precoFinal() + pII.precoFinal()) / 2;
-		System.out.printf("Média de preço: R$ %.2f\n", mediaCarrinho);
+		System.out.printf("\nMédia de preço: R$ %.2f\n", mediaCarrinho);
 	}
 }
