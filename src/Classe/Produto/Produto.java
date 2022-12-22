@@ -2,9 +2,15 @@ package Classe.Produto;
 
 public class Produto {
 	final String nome;
-	final double preco;
+	double preco;
 	double desconto;
-	public Produto(String nome, double preco) {
+	Produto() {
+		this.nome = "?";
+	}
+	Produto(String nome) {
+		this.nome = nome;
+	}
+	Produto(String nome, double preco) {
 		this.nome = nome;
 		this.preco = preco;
 	}
