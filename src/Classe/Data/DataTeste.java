@@ -18,9 +18,9 @@ public class DataTeste {
 				"Queda do muro de Berlin: %d/%d/%d\n" + queda.description + "\n", 
 				queda.dia, queda.mes, queda.ano
 		);
-		System.out.printf(
-				"Queda da URSS: %d/%d/%d\n" + outraQueda.description + "\n", 
-				outraQueda.dia, outraQueda.mes, outraQueda.ano
+		System.out.print(
+				"Queda da URSS: " + outraQueda.formatData() +  "\n" 
+				+ outraQueda.description + "\n"
 		);
 	}
 }
