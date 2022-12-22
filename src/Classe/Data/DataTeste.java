@@ -15,11 +15,11 @@ public class DataTeste {
 				+ "A declaração reconheceu a independência das antigas repúblicas "
 				+ "soviéticas e criou a Comunidade de Estados Independentes.";
 		System.out.printf(
-				"Queda do muro de Berlin: %d/%d/%d\n", 
+				"Queda do muro de Berlin: %d/%d/%d\n" + queda.description + "\n", 
 				queda.dia, queda.mes, queda.ano
 		);
 		System.out.printf(
-				"Queda da URSS: %d/%d/%d\n", 
+				"Queda da URSS: %d/%d/%d\n" + outraQueda.description + "\n", 
 				outraQueda.dia, outraQueda.mes, outraQueda.ano
 		);
 	}
