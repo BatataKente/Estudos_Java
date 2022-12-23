@@ -9,4 +9,7 @@ public class Circulo {
 	double area() {
 		return Math.pow(raio, 2)*PI;
 	}
+	static double area(double raio) {
+		return Math.pow(raio, 2)*PI;
+	}
 }
