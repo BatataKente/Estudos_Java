@@ -1,6 +1,6 @@
-package Classe.Curiosidade;
+package Classe.Teste;
 
-import Classe.Produto.Produto;
+import Classe.Objetos.Produto;
 
 public class Teste {
 	public static void main(String[] args) {

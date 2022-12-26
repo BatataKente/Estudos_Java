@@ -1,4 +1,4 @@
-package Classe.Produto;
+package Classe.Objetos;
 
 public class ProdutoTeste {
 	public static void main(String[] args) {

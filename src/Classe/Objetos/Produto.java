@@ -1,4 +1,4 @@
-package Classe.Produto;
+package Classe.Objetos;
 
 public class Produto {
 	final String nome;

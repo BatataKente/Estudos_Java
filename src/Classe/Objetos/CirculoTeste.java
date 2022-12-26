@@ -1,4 +1,4 @@
-package Classe.AreaCirc;
+package Classe.Objetos;
 
 public class CirculoTeste {
 	public static void main(String[] args) {

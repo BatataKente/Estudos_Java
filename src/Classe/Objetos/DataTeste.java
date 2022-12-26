@@ -1,4 +1,4 @@
-package Classe.Data;
+package Classe.Objetos;
 
 public class DataTeste {
 	public static void main(String[] args) {

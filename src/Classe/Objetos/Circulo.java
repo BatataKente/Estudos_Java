@@ -1,4 +1,4 @@
-package Classe.AreaCirc;
+package Classe.Objetos;
 
 public class Circulo {
 	final static double PI = Math.PI;
