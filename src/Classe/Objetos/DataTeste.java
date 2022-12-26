@@ -2,6 +2,10 @@ package Classe.Objetos;
 
 public class DataTeste {
 	public static void main(String[] args) {
+		final var data = new Data(1, 1, 1999);
+		System.out.print(data.otherWayFormatData());
+	}
+	static void example() {
 		Data queda = new Data(9, 11, 1989);
 		queda.description = "A queda do muro de Berlim, em 9 de novembro de 1989, "
 				+ "foi um evento crucial na história mundial que marcou a queda da "
