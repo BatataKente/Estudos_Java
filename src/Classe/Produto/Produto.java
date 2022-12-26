@@ -3,7 +3,7 @@ package Classe.Produto;
 public class Produto {
 	final String nome;
 	double preco;
-	double desconto;
+	static double desconto;
 	Produto() {
 		this.nome = "?";
 	}
