@@ -1,10 +1,10 @@
-package Classe.Produto;
+package Classe.Objetos;
 
 public class Produto {
 	final String nome;
 	double preco;
-	double desconto;
-	Produto() {
+	static double desconto;
+	public Produto() {
 		this.nome = "?";
 	}
 	Produto(String nome) {
