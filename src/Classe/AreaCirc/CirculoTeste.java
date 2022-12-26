@@ -6,5 +6,5 @@ public class CirculoTeste {
 		System.out.println(circulo.area());
 		final var circuloDois = new Circulo(10);
 		System.out.print(circuloDois.area()); 
-	}
+	} 
 }
