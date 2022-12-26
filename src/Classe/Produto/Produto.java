@@ -4,7 +4,7 @@ public class Produto {
 	final String nome;
 	double preco;
 	static double desconto;
-	Produto() {
+	public Produto() {
 		this.nome = "?";
 	}
 	Produto(String nome) {
