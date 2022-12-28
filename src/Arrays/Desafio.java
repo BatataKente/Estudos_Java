@@ -5,8 +5,22 @@ import java.util.Scanner;
 public class Desafio {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		mySolutionII(input);
+		solution(input);
 		input.close();
+	}
+	static void solution(Scanner input) {
+		System.out.print("Quantas notas: ");
+		var numberOfNotes = input.nextInt();
+		double[] notas = new double[numberOfNotes];
+		for (int counter = 0; counter < notas.length; counter++) {
+			System.out.print("Informe a nota " + (counter + 1) + ": ");
+			notas[counter] = input.nextDouble();
+		}
+		double total = 0;
+		for (double nota : notas) {
+			total += nota;
+		}
+		System.out.printf("\nA média é %.2f", (total/notas.length));
 	}
 	static void mySolutionI(Scanner input) {
 		var numberOfNotes = 0;
