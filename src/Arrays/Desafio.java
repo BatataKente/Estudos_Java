@@ -20,7 +20,8 @@ public class Desafio {
 		for (double nota : notas) {
 			total += nota;
 		}
-		System.out.printf("\nA média é %.2f", (total/notas.length));
+		double media = total/notas.length;
+		System.out.printf("\nA média é %.2f", (media));
 	}
 	static void mySolutionI(Scanner input) {
 		var numberOfNotes = 0;
