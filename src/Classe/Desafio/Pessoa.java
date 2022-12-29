@@ -5,6 +5,11 @@ public class Pessoa extends Organico {
 		super(nome, peso);
 	}
 	void comer(final Comida rango) {
-		peso += rango.peso;
+		if (rango != null) {
+			peso += rango.peso;
+		}
+	}
+	String apresentar() {
+		return "Nome: " + nome + "\nPeso: " + peso + "Kgs.";
 	}
 }
