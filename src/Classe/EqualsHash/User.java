@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class User {
 	String nome, email;
-
 	public int hashCode() {
 		return Objects.hash(email, nome);
 	}
@@ -16,9 +15,9 @@ public class User {
 		return Objects.equals(email, other.email) && 
 					Objects.equals(nome, other.nome);
 	}
-	
-	
-	
+//	public int hashCode() {
+//	return nome.length() + email.length();
+//}
 //	public boolean equals(Object object) {
 //		if (object instanceof User) {
 //			var other = (User) object;
@@ -33,8 +32,5 @@ public class User {
 //		var nameIsEqual = other.nome.equals(nome);
 //		var emmailIsEqual = other.email.equals(email);
 //		return nameIsEqual && emmailIsEqual;
-//	}
-//	public int hashCode() {
-//		return nome.length() + email.length();
 //	}
 }
