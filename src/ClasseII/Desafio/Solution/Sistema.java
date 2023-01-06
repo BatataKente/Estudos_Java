@@ -8,9 +8,9 @@ public class Sistema {
 		umaCompra.adicionarItem(new Produto("NoteBook",	2000.00), 2);
 		var outraCompra = new Compra();
 		outraCompra.adicionarItem("Caderno", 10, 10);
-		outraCompra.adicionarItem(new Produto("Impressora",	1000), 1);
-		cliente.compras.add(umaCompra);
-		cliente.compras.add(outraCompra);
+		outraCompra.adicionarItem(new Produto("Impressora", 1000), 1);
+		cliente.adicionarCompra(umaCompra);
+		cliente.adicionarCompra(outraCompra);
 		System.out.print(cliente.obterValorTotal());
 	}
 }

@@ -9,6 +9,9 @@ public class Cliente {
 	public Cliente(String nome) {
 		this.nome = nome;
 	}
+	void adicionarCompra(Compra compra) {
+		compras.add(compra);
+	}
 	double obterValorTotal() {
 		double total = 0;
 		for (Compra compra : compras) {
