@@ -1,10 +1,17 @@
-package Heranca;
+package Heranca.Jogo;
 
 class Jogador {
-	int hp = 100;
-	int x;
-	int y;
-	boolean atacar(Jogador oponente) {
+	private int hp = 100;
+	public int x;
+	public int y;
+	public Jogador()  {
+		this(0, 0);
+	}
+	public Jogador(int x, int  y)  {
+		this.x = x;
+		this.y = y;
+	}
+	public boolean atacar(Jogador oponente) {
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
 		int dano = 10;
@@ -17,7 +24,7 @@ class Jogador {
 		}
 		return false;
 	}
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 		var andou = true;
 		switch (direcao) {
 				case NORTE: y--; break;
@@ -28,7 +35,7 @@ class Jogador {
 		}
 		return andou;
 	}
-	String status() {
+	public String status() {
 		return "hp: " + hp + "\tposition: (x: " + x + "; y: " + y + ")";
 	}
 }

@@ -1,16 +1,22 @@
 package Heranca.Desafio;
 
 public class Carro {
-	int velocidade = 0;
-	void acelerar() {
-		velocidade += 5;
+	private final int VELOCIDADE_MAXIMA;
+	private int velocidade = 0;
+	protected int delta = 5;
+	protected Carro(int velocidadeMaxima) {
+		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
-	void freiar() {
+	public void acelerar() {
+		if (velocidade + delta > VELOCIDADE_MAXIMA) {return;}
+		velocidade += delta;
+	}
+	public void freiar() {
 		if (velocidade > 0) {
-			velocidade -= 5;
+			velocidade -= delta;
 		}
 	}
-	String status() {
+	public String status() {
 		return "Velocidade: " + velocidade;
 	}
 }

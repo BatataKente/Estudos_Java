@@ -1,4 +1,7 @@
-package Heranca.Desafio;
+package Heranca.Teste;
+
+import Heranca.Desafio.Civic;
+import Heranca.Desafio.Ferrari;
 
 public class Pista {
 	public static void main(String[] args) {

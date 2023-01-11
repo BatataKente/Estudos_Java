@@ -1,4 +1,8 @@
-package Heranca;
+package Heranca.Teste;
+
+import Heranca.Jogo.Direcao;
+import Heranca.Jogo.Heroi;
+import Heranca.Jogo.Monstro;
 
 class Jogo {
 	public static void main(String[] args) {
