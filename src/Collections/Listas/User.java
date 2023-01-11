@@ -15,9 +15,10 @@ public class User {
 		return Objects.hash(nome);
 	}
 	@Override public boolean equals(Object obj) {
-		if (this == obj) return true;
-		if (obj == null || getClass() != obj.getClass()) return false;
-		User other = (User) obj;
-		return Objects.equals(nome, other.nome);
+	    if (obj instanceof User) {
+	        User other = (User) obj;
+	        return Objects.equals(nome, other.nome);
+	    }
+	    return false;
 	}
 }
