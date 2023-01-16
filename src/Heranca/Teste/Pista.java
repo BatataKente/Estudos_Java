@@ -10,6 +10,7 @@ public class Pista {
 		civic.acelerar();
 		civic.freiar();
 		civic.freiar();
+		ferrari.ligarTurbo();
 		ferrari.acelerar();
 		ferrari.acelerar();
 		ferrari.acelerar();
