@@ -14,6 +14,7 @@ public class Carro {
 	public void freiar() {
 		if (velocidade > 0) {
 			velocidade -= delta;
+			System.out.print("Lero Lero");
 		}
 	}
 	public String status() {
