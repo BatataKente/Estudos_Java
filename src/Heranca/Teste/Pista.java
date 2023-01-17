@@ -16,5 +16,6 @@ public class Pista {
 		ferrari.acelerar();
 		System.out.println(civic.status());
 		System.out.println(ferrari.status());
+		System.out.println(ferrari.nivelDoAr());
 	}
 }

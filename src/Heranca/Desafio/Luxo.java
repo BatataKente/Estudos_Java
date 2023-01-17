@@ -1,6 +1,9 @@
 package Heranca.Desafio;
 
 public interface Luxo {
-	void ligarAr();
-	void desligarAr();
+	public void ligarAr();
+	public void desligarAr();
+	default int nivelDoAr() {
+		return 1;
+	}
 }
