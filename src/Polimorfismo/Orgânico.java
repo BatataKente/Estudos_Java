@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Orgânico {
+public abstract class Orgânico {
 	protected double peso;
 	public Orgânico(double peso) {
 		setPeso(peso);

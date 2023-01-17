@@ -1,6 +1,6 @@
 package Heranca.Desafio;
 
 interface Esportivo {
-	void ligarTurbo();
-	void desligarTurbo();
+	public void ligarTurbo();
+	public void desligarTurbo();
 }
