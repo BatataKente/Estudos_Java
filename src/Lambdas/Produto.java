@@ -9,6 +9,6 @@ public class Produto {
 		this.desconto = desconto;
 	}
 	@Override public String toString() {
-		return "Nome: " + nome + "\tPreco: " + String.format("%.2f", preco * desconto);
+		return "Nome: " + nome + "\tPreco: " + String.format("%.2f", preco * (1 - desconto));
 	}
 }
