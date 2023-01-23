@@ -6,10 +6,10 @@ import java.util.function.UnaryOperator;
 
 public class Desafio {
 	public static void main(String[] args) {
-//		teste();
-		solucao();
+//		mySolution();
+		solution();
 	}
-	static void solucao () {
+	static void solution () {
 		Function<Produto, Double> precoFinal = produto -> {
 			return produto.preco * (1 - produto.desconto);
 		};
@@ -32,7 +32,7 @@ public class Desafio {
 				.apply(iPad);
 		System.out.println("O preço final é " + preco);
 	}
-	static void teste() {
+	static void mySolution() {
 		Function<Produto, Double> preçoÁVista = produto -> {
 			return produto.preco*(1-produto.desconto);
 		};
