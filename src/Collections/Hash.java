@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.HashSet;
+
 import Collections.Listas.User;
 
 public class Hash {
