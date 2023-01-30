@@ -2,11 +2,11 @@ package estudos.poo.I;
 
 import java.util.function.Supplier;
 
-public class Cliente {
+public class Aula_4_Cliente {
 	String nome; 
 	String rg; 
 	int idade;
-	Supplier<String> getStatus = () -> "Name: " + nome + "\nRg: " + rg + "\nage: " + idade;
+	Supplier<String> status = () -> "Name: " + nome + "; Rg: " + rg + "; age: " + idade;
 //	String getStatus() {
 //		return "Name: " + nome + "\nRg: " + rg + "\nage: " + idade;
 //	}
