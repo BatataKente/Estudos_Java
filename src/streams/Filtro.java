@@ -1,14 +1,24 @@
 package streams;
 
+import java.util.Arrays;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 public class Filtro {
 	public static void main(String[] args) {
-		Aluno[] alunos = {
-				new Aluno("Josicleison", 0),
-				new Aluno("Josicleide", 0),
-				new Aluno("Alfredo", 0),
-				new Aluno("Marcidineide", 0),
-				new Aluno("Godolfredo", 0),
-				new Aluno("Alfreditte", 0)
-		};
+		var alunos = Arrays.asList(
+				new Aluno("Josicleison", 7.8),
+				new Aluno("Josicleide", 6.8),
+				new Aluno("Alfredo", 7.1),
+				new Aluno("Marcidineide", 9.9),
+				new Aluno("Godolfredo", 2),
+				new Aluno("Alfreditte", 8.8)
+		);
+		Predicate<Aluno> isAprovado = a -> a.nota >= 7;
+		Function<Aluno, String> giveParabéns = a -> "Parabéns! " + a.nome + "! Você foi aprovado!";
+		alunos.stream()
+			.filter(isAprovado)
+			.map(giveParabéns)
+			.forEach(System.out::println);
 	}
 }
