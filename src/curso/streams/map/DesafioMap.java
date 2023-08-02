@@ -1,4 +1,4 @@
-package curso.streams;
+package curso.streams.map;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,6 @@
-package curso.streams;
+package curso.streams.filter;
+
+import curso.streams.Aluno;
 
 import java.util.Arrays;
 import java.util.function.Function;

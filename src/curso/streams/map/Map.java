@@ -1,4 +1,6 @@
-package curso.streams;
+package curso.streams.map;
+
+import curso.streams.Utilitários;
 
 import java.util.Arrays;
 import java.util.List;
