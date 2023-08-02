@@ -95,12 +95,9 @@ public class Loops {
 //    nanoTime da classe System.
     static void _4(Scanner input) {
         Random random = new Random();
-
         System.out.println("Bem-vindo ao teste de reflexos!");
         System.out.println("Pressione Enter quando estiver pronto...");
-
         input.nextLine();
-
         try {
             Thread.sleep(Ex2Sorteio.generateNumber(0, 5000));
             System.out.println("Agora!");
