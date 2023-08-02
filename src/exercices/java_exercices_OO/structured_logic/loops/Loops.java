@@ -1,6 +1,8 @@
 package exercices.java_exercices_OO.structured_logic.loops;
 
+import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.Executor;
 import java.util.function.Consumer;
@@ -8,7 +10,7 @@ import java.util.function.Consumer;
 public class Loops {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        _3(input);
+        _4(input);
         input.close();
     }
 //1) Fazer uma classe Ex1Primos para:
@@ -91,4 +93,26 @@ public class Loops {
 //    tempo.
 //            • Dicas: usar o método getTimeInMillis da classe Calendar ou o método
 //    nanoTime da classe System.
+    static void _4(Scanner input) {
+        Random random = new Random();
+        System.out.println("Bem-vindo ao teste de reflexos!");
+        System.out.println("Pressione Enter quando estiver pronto...");
+        input.nextLine();
+        try {
+            Thread.sleep(Ex2Sorteio.generateNumber(0, 5000));
+            System.out.println("Agora!");
+            var a = Ex2Sorteio.generateNumber(0, 10);
+            var b = Ex2Sorteio.generateNumber(0, 10);
+            System.out.printf("Quanto é %d vezes %d? ", a, b);
+            var askTime = System.currentTimeMillis();
+            var response = Integer.parseInt(input.next());
+            float responseTime = System.currentTimeMillis() - askTime;
+            System.out.println("Sua resposta foi: " + response + " no tempo " + responseTime/1000);
+            var result = a * b;
+            System.out.println("E está " + (result == response? "correto" : "incorreto"));
+        } catch (Exception exception) {
+            System.out.println(exception);
+        }
+
+    }
 }
