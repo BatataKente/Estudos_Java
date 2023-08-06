@@ -3,9 +3,9 @@ package exercices.codingbat.map_1;
 import java.util.Map;
 
 public class MapAB3 {
-    public Map<String, String> mapAB3(Map<String, String> map) {
-        final String valueOfKeyA = map.get("a");
-        final String valueOfKeyB = map.get("b");
+    public Map mapAB3(Map map) {
+        final String valueOfKeyA = (String) map.get("a");
+        final String valueOfKeyB = (String) map.get("b");
         if(valueOfKeyA != null && valueOfKeyB != null) return map;
         if(valueOfKeyA != null) {
             map.put("b", valueOfKeyA);
@@ -15,7 +15,7 @@ public class MapAB3 {
         }
         return map;
     }
-    public Map<String, String> mapAB3_1(Map<String, String> map) {
+    public Map mapAB3_1(Map map) {
         final boolean keyAHasAnValue = map.containsKey("a");
         final boolean keyBHasAnValue = map.containsKey("b");
         if(keyAHasAnValue && keyBHasAnValue) return map;

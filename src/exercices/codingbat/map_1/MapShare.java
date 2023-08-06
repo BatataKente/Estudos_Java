@@ -3,17 +3,17 @@ package exercices.codingbat.map_1;
 import java.util.Map;
 
 public class MapShare {
-    public Map<String, String> mapShare(Map<String, String> map) {
-        final String valueOfKeyA = map.get("a");
+    public Map mapShare(Map map) {
+        final String valueOfKeyA = (String) map.get("a");
         if(valueOfKeyA != null) {
         map.put("b", valueOfKeyA);
         }
         map.remove("c");
         return map;
     }
-    public Map<String, String> mapShare_1(Map<String, String> map) {
+    public Map mapShare_1(Map map) {
         if(map.containsKey("a")) {
-            final String valueOfKeyA = map.get("a");
+            final String valueOfKeyA = (String) map.get("a");
             map.put("b", valueOfKeyA);
         }
         map.remove("c");

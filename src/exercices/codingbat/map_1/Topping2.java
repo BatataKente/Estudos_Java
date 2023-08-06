@@ -3,8 +3,8 @@ package exercices.codingbat.map_1;
 import java.util.Map;
 
 public class Topping2 {
-    public Map<String, String> topping2(Map<String, String> map) {
-        final String valueOfIceCream = map.get("ice cream");
+    public Map topping2(Map map) {
+        final String valueOfIceCream = (String) map.get("ice cream");
         if(valueOfIceCream != null) {
             map.put("yogurt", valueOfIceCream);
         }
@@ -13,7 +13,7 @@ public class Topping2 {
         }
         return map;
     }
-    public Map<String, String> topping2_1(Map<String, String> map) {
+    public Map topping2_1(Map map) {
         final String iceCream = "ice cream";
         if(map.containsKey(iceCream)) {
             map.put("yogurt", map.get(iceCream));
