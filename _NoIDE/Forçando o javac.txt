@@ -1,2 +1,0 @@
-"C:\Program Files\Java\jdk1.5.0_09\bin\javac.exe" [MyFile.java]
-"C:\Program Files\Java\jdk1.5.0_09\bin\java.exe" [MyFile]
