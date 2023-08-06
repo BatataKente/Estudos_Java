@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4ef899f-e01e-41eb-a236-4dca97b88bce" name="Changes" comment="feitos mais estudos">
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/Close10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/EndUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/EveryNth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/In3050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/IntMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/LastDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/Max1020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_1/StringE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/AltPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/Array123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/Array667.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/ArrayCount9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/ArrayFront9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/CountXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/DoubleX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/FrontTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/Has271.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/Last2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/NoTriples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringSplosion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/codingbat/warmup_2/StringYak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercices/java_SE_8_programmer_I/lidando_com_exceções/LidandoComExceções.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/curso/streams/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/curso/streams/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/curso/streams/DesafioMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/curso/streams/Filtro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/curso/streams/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estudos_Java/exercices/codingbat/warmup_1/IoneTeen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estudos_Java/exercices/codingbat/warmup_1/IoneTeen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Estudos_Java/exercices/codingbat/warmup_1/StartOz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Estudos_Java/exercices/codingbat/warmup_1/StartOz.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2TOtRahwF0dhT4e4UEG3YttQWsJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4ef899f-e01e-41eb-a236-4dca97b88bce" name="Changes" comment="" />
+      <created>1690925947742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690925947742</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit voltando com força em java">
+      <option name="closed" value="true" />
+      <created>1690929012974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690929012974</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit voltando com força em java">
+      <option name="closed" value="true" />
+      <created>1690929050179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690929050179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Novamente um outro exercício da lista, feito">
+      <option name="closed" value="true" />
+      <created>1690931833585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690931833585</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Novamente um outro exercício da lista, feito">
+      <option name="closed" value="true" />
+      <created>1690931850673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690931850673</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mais um exercício feito">
+      <option name="closed" value="true" />
+      <created>1690938349700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690938349700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mais um exercício feito">
+      <option name="closed" value="true" />
+      <created>1690938381185</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690938381185</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dessa vez eu brinquei com uma conta de matemática no tempo, pra testar a velocidade de raciocínio do usuário">
+      <option name="closed" value="true" />
+      <created>1690939657772</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690939657772</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dessa vez eu brinquei com uma conta de matemática no tempo, pra testar a velocidade de raciocínio do usuário">
+      <option name="closed" value="true" />
+      <created>1690939685173</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690939685173</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feitos mais estudos">
+      <option name="closed" value="true" />
+      <created>1691017973507</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691017973507</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feitos mais estudos">
+      <option name="closed" value="true" />
+      <created>1691017979584</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691017979584</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First commit voltando com força em java" />
+    <MESSAGE value="Novamente um outro exercício da lista, feito" />
+    <MESSAGE value="mais um exercício feito" />
+    <MESSAGE value="dessa vez eu brinquei com uma conta de matemática no tempo, pra testar a velocidade de raciocínio do usuário" />
+    <MESSAGE value="feitos mais estudos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feitos mais estudos" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/src$DoubleX.ic" NAME="DoubleX Coverage Results" MODIFIED="1691100150154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercices.codingbat.warmup_2.*</FILTER>
+    </SUITE>
+  </component>
+</project>
