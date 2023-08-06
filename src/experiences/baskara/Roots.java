@@ -1,0 +1,12 @@
+package experiences.baskara;
+
+public class Roots {
+	public final double x_1, x_2;
+	public Roots(double x_1, double x_2) {
+		this.x_1 = x_1;
+		this.x_2 = x_2;
+	}
+	public String toString() {
+		return String.format("Valor do x': %.2f\nValor do x'': %.2f", x_1, x_2);
+	}
+}

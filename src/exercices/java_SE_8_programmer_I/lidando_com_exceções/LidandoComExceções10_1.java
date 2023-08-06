@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;
 
-public class LidandoComExceções {
+public class LidandoComExceções10_1 {
     private Class[] manyExceptionClasses = {
             SQLException.class, // - Checked
             Exception.class, // - Checked
