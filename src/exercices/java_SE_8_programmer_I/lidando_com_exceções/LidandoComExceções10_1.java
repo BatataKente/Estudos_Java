@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.text.ParseException;
 
 public class LidandoComExceções10_1 {
-    private Class[] manyExceptionClasses = {
+	
+    private static Class[] manyExceptionClasses = {
             SQLException.class, // - Checked
             Exception.class, // - Checked
             IndexOutOfBoundsException.class, // - Checked
@@ -21,18 +22,22 @@ public class LidandoComExceções10_1 {
             IllegalStateException.class,// - Unchecked (RuntimeException)
             UnsupportedOperationException.class// - Unchecked (RuntimeException)
     };
+    
     public static void main(String[] args) {
-        Class[] exceptionClasses = {
-                SQLException.class,
-                Exception.class,
-                IndexOutOfBoundsException.class,
-                FileNotFoundException.class
-        };
-        Question_1Solution(exceptionClasses);
+//        Class[] exceptionClasses = {
+//                SQLException.class,
+//                Exception.class,
+//                IndexOutOfBoundsException.class,
+//                FileNotFoundException.class
+//        };
+        Question_1Solution(manyExceptionClasses);
     }
+    
     private static void Question_1Solution(Class[] exceptionClasses) {
+    	
         String uncheckedNames = "Nenhuma.";
         String checkedNames = "Nenhuma.";
+        
         for(int i = 0; i < exceptionClasses.length; i++) {
             final Class name = exceptionClasses[i];
             System.out.println("- " + name.getSimpleName());
@@ -50,7 +55,27 @@ public class LidandoComExceções10_1 {
                 }
             }
         }
-        System.out.print("Dentre as classes acima qual delas não é checked? ");
-        System.out.println(uncheckedNames);
+        
+        System.out.println("Dentre as classes acima qual delas são unchecked, e checked?");
+//        System.out.println("unchecked: " + uncheckedNames);
+//		System.out.println("checked: " + checkedNames);
+        System.out.println(String.format("unchecked: %s", new Object[]{uncheckedNames}));
+        System.out.println(String.format("checked: %s", new Object[]{checkedNames}));
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
