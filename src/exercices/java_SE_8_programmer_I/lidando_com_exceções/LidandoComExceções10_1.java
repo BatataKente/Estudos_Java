@@ -33,7 +33,7 @@ public class LidandoComExceções10_1 {
         Question_1Solution(manyExceptionClasses);
     }
     
-    private static void Question_1Solution(Class[] exceptionClasses) {
+    public static void Question_1Solution(Class[] exceptionClasses) {
     	
         String uncheckedNames = "Nenhuma.";
         String checkedNames = "Nenhuma.";
