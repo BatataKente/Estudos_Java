@@ -1,4 +1,4 @@
-package exercices.java_SE_8_programmer_I.lidando_com_exceções;
+package exercices.java_SE_8_programmer_I._10;
 
 import java.util.Scanner;
 

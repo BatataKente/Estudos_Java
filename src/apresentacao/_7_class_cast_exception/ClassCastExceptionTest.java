@@ -3,7 +3,7 @@ package apresentacao._7_class_cast_exception;
 import apresentacao._7_class_cast_exception.roberto.Jose;
 import apresentacao._7_class_cast_exception.roberto.JoseJr;
 import apresentacao._7_class_cast_exception.roberto.Roberto;
-import exercices.java_SE_8_programmer_I.lidando_com_exceções.LidandoComExceções10_1;
+import exercices.java_SE_8_programmer_I._10.LidandoComExceções10_1;
 
 public class ClassCastExceptionTest {
 	public static void main(String[] args) {
