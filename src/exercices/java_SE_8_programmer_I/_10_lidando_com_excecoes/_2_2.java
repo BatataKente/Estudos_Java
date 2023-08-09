@@ -1,8 +1,8 @@
-package exercices.java_SE_8_programmer_I._10;
+package exercices.java_SE_8_programmer_I._10_lidando_com_excecoes;
 
 import java.util.Scanner;
 
-public class LidandoComExceções10_3 {
+public class _2_2 {
     public static void main(String[] args) {
     	_2();
     	System.out.println();

@@ -1,11 +1,11 @@
-package exercices.java_SE_8_programmer_I._10;
+package exercices.java_SE_8_programmer_I._10_lidando_com_excecoes;
 
 import java.sql.SQLException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.ParseException;
 
-public class LidandoComExceções10_1 {
+public class _1_1 {
 	
     private static Class[] manyExceptionClasses = {
             SQLException.class, // - Checked
