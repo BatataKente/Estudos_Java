@@ -3,7 +3,9 @@ package exercices.java_SE_8_programmer_I._8_trabalhando_com_metodos_e_encapsulam
 public class Example {
 	public static void main(String[] args) {
 		Example example = new Example();
+		
 		example.method2(0);
+		
 	}
 	String method2(int a) {
 		if(a > 0) {

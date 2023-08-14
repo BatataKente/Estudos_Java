@@ -7,7 +7,7 @@ class _2_4B{
 	 static void y() {
 		 System.out.println("y");
 	 }
- }
+ } 
 
  public class _2_4 extends _2_4B {
 	 public static void main(String[] args) {

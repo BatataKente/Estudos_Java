@@ -15,6 +15,9 @@ public class Baskara {
 		return new Roots(x_1, x_2);
 	}
 	public String toString() {
-		return String.format("Valor do x': %.2f\nValor do x'': %.2f", x_1, x_2);
+		return String.format(
+				"Valor do x': %.2f\nValor do x'': %.2f", 
+				new Object[] {new Double(x_1), new Double(x_2)}
+		);
 	}
 }
