@@ -23,6 +23,7 @@ public abstract class CalculadoraFrame extends JFrame {
 		getContentPane().setLayout(new BorderLayout());
 		getContentPane().add(getFormPanel(), BorderLayout.CENTER);
 		getContentPane().add(getRodapePanel(), BorderLayout.PAGE_END);
+		setVisible(true);
 		setResizable(false);
 	}
 	protected FormPanel getFormPanel() {

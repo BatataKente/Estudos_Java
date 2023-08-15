@@ -7,8 +7,7 @@ public class Application {
 		SwingUtilities.invokeLater(
 			new Runnable() {
 				public void run() {
-					Calculadora calculadora = new Calculadora();
-					calculadora.setVisible(true);
+					new Calculadora();
 				}
 			}
 		);

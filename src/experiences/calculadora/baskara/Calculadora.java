@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 
 import experiences.calculadora.baskara.layout.CalculadoraFrame;
 import experiences.calculadora.baskara.utils.Baskara;
+import experiences.calculadora.baskara.utils.ErrorFrame;
 import experiences.calculadora.baskara.utils.Roots;
 
 public class Calculadora extends CalculadoraFrame {
