@@ -2,6 +2,7 @@ package experiences.calculadora;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -36,9 +37,27 @@ public abstract class CalculadoraFrame extends JFrame {
 	private RodapePanel getRodapePanel() {
 		if(rodapePanel == null) {
 			rodapePanel = new RodapePanel();
-			rodapePanel.getCalculateButton().addActionListener(this::calculateButtonActionListener);
-			rodapePanel.getCleanButton().addActionListener(this::cleanButtonActionListener);
-			rodapePanel.getCloseButton().addActionListener(this::closeButtonActionListener);
+			rodapePanel.getCalculateButton().addActionListener(
+					new ActionListener() {
+						public void actionPerformed(ActionEvent event) {
+							calculateButtonActionListener(event);
+						}
+					}
+			);
+			rodapePanel.getCleanButton().addActionListener(
+					new ActionListener() {
+						public void actionPerformed(ActionEvent event) {
+							cleanButtonActionListener(event);
+						}
+					}
+			);
+			rodapePanel.getCloseButton().addActionListener(
+					new ActionListener() {
+						public void actionPerformed(ActionEvent event) {
+							closeButtonActionListener(event);
+						}
+					}
+			);
 		}
 		return rodapePanel;
 	}
