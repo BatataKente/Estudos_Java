@@ -1,4 +1,4 @@
-package experiences.calculadora;
+package experiences.calculadora.juros_compostos.layout;
 
 import javax.swing.*;
 import java.awt.*;
@@ -54,31 +54,31 @@ public class FormPanel extends JPanel {
         }
         return resultLabel;
     }
-    JTextField getCapitalTextField() {
+    public JTextField getCapitalTextField() {
         if(capitalTextField == null) {
             capitalTextField = new JTextField(TEXT_FIELDS_COLUMNS);
         }
         return capitalTextField;
     }
-    JTextField getTaxTextField() {
+    public JTextField getTaxTextField() {
         if(taxTextField == null) {
             taxTextField = new JTextField(TEXT_FIELDS_COLUMNS);
         }
         return taxTextField;
     }
-    JTextField getTurnTextField() {
+    public JTextField getTurnTextField() {
         if(turnTextField == null) {
             turnTextField = new JTextField(TEXT_FIELDS_COLUMNS);
         }
         return turnTextField;
     }
-    JTextField getResultTextField() {
+    public JTextField getResultTextField() {
         if(resultTextField == null) {
             resultTextField = new JTextField(TEXT_FIELDS_COLUMNS);
         }
         return resultTextField;
     }
-    void cleanTextFields() {
+    public void cleanTextFields() {
         getResultTextField().setText("");
         getTaxTextField().setText("");
         getTurnTextField().setText("");

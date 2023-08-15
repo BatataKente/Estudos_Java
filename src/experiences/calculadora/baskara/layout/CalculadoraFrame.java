@@ -1,4 +1,4 @@
-package experiences.calculadora;
+package experiences.calculadora.baskara.layout;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -13,19 +13,19 @@ import javax.swing.JTextField;
 public abstract class CalculadoraFrame extends JFrame {
 	protected FormPanel formPanel;
 	protected RodapePanel rodapePanel;
-	public CalculadoraFrame() {
+	public CalculadoraFrame(String title) {
+		setTitle(title);
 		initialize();
 		pack();
 	}
 	private void initialize() {
-		setTitle("Calculadora Juros Composto");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		getContentPane().setLayout(new BorderLayout());
 		getContentPane().add(getFormPanel(), BorderLayout.CENTER);
 		getContentPane().add(getRodapePanel(), BorderLayout.PAGE_END);
 		setResizable(false);
 	}
-	FormPanel getFormPanel() {
+	protected FormPanel getFormPanel() {
 		if(formPanel == null) {
 			formPanel = new FormPanel();
 		}

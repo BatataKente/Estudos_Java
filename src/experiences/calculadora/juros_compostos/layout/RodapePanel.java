@@ -1,4 +1,4 @@
-package experiences.calculadora;
+package experiences.calculadora.juros_compostos.layout;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,7 +1,9 @@
-package experiences.calculadora;
+package experiences.calculadora.juros_compostos;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import experiences.calculadora.juros_compostos.layout.CalculadoraFrame;
 
 public class Calculadora extends CalculadoraFrame {
 	protected void calculateButtonActionListener(ActionEvent event) {
@@ -25,4 +27,7 @@ public class Calculadora extends CalculadoraFrame {
         setVisible(false);
         dispose();
     }
+	public Calculadora() {
+		super("Calculadora Juros Composto");
+	}
 }
