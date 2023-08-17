@@ -39,25 +39,25 @@ public abstract class CalculadoraFrame extends JFrame {
 		if(rodapePanel == null) {
 			rodapePanel = new RodapePanel();
 			rodapePanel.getCalculateButton().addActionListener(
-					new ActionListener() {
-						public void actionPerformed(ActionEvent event) {
-							calculateButtonActionListener(event);
-						}
+				new ActionListener() {
+					public void actionPerformed(ActionEvent event) {
+						calculateButtonActionListener(event);
 					}
+				}
 			);
 			rodapePanel.getCleanButton().addActionListener(
-					new ActionListener() {
-						public void actionPerformed(ActionEvent event) {
-							cleanButtonActionListener(event);
-						}
+				new ActionListener() {
+					public void actionPerformed(ActionEvent event) {
+						cleanButtonActionListener(event);
 					}
+				}
 			);
 			rodapePanel.getCloseButton().addActionListener(
-					new ActionListener() {
-						public void actionPerformed(ActionEvent event) {
-							closeButtonActionListener(event);
-						}
+				new ActionListener() {
+					public void actionPerformed(ActionEvent event) {
+						closeButtonActionListener(event);
 					}
+				}
 			);
 		}
 		return rodapePanel;
