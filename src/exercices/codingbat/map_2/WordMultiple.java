@@ -13,7 +13,7 @@ public class WordMultiple {
 				      final String wordJ = strings[j];
 				      if(wordJ.equals(wordI)) {moreThan2Times = true; break;}
 			    }
-			    result.put(wordI, moreThan2Times);
+			    result.put(wordI, new Boolean(moreThan2Times));
 		  }
 		  return result;
 	}
