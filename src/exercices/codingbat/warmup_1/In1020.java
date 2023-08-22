@@ -14,8 +14,4 @@ public class In1020 {
         if ((b >= 10) && (b <= 20)) return true;
         return false;
     }
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> 0d622eb1303a0fe7187e95d7aa65703584a35788

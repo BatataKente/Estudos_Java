@@ -1,11 +1,5 @@
 package exercices.codingbat.warmup_1;
 
-import java.util.Arrays;
-<<<<<<< HEAD
-import java.util.stream.IntStream;
-=======
->>>>>>> 0d622eb1303a0fe7187e95d7aa65703584a35788
-
 public class MissingChar {
     public static void main(String[] args) {
         System.out.println(missingChar("kitten", 1));
