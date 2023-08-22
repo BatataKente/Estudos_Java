@@ -1,7 +1,7 @@
 package exercices.codingbat.map_1;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.HashMap;;
 
 public class MapAB {
 	public static void main(String[] args) {
