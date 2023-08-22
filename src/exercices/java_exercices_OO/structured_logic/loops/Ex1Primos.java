@@ -7,7 +7,7 @@ public class Ex1Primos {
     }
     static void showPrimesAtInterval(int min, int max) {
         for (; min < max; min++) {
-            var current = getIfPrime(min);
+            String current = getIfPrime(min);
             if(current == "") continue;
             System.out.print(current + " ");
         }
@@ -24,7 +24,7 @@ public class Ex1Primos {
         showNumberIsPrime(number);
     }
     static void showNumberIsPrime(int number) {
-        var isPrime = numberIsPrime(number)? "Sim" : "Não";
+        String isPrime = numberIsPrime(number)? "Sim" : "Não";
         System.out.println(number + " é primo? " + isPrime);
     }
     boolean numberIsPrime() {
@@ -38,7 +38,6 @@ public class Ex1Primos {
         }
         return true;
     }
-    @Override
     public String toString() {
         return String.valueOf(number);
     }
