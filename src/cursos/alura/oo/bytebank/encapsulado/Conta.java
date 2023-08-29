@@ -1,10 +1,17 @@
 package cursos.alura.oo.bytebank.encapsulado;
 
 public class Conta {
+	private static int total;
 	private double saldo;
-	private int agencia, numero;
+	private int agencia = 1, numero;
 	private Cliente titular;
+	public Conta(final int agencia, final int numero) {
+		this.setAgencia(agencia);
+		this.setNumero(numero);
+		total++;
+	}
 	public void depositar(final double valor) {
+		if(valor < 0) return;
 		this.saldo += valor;
 	}
 	public boolean sacar(final double valor) {
@@ -23,13 +30,18 @@ public class Conta {
 	public double getSaldo() {
 		return saldo;
 	}
+	public static int getTotal() {
+		return total;
+	}
 	public int getNumero() {
 		return numero;
 	}
 	public void setNumero(int numero) {
+		if(numero < 0) return;
 		this.numero = numero;
 	}
 	public void setAgencia(int agencia) {
+		if(agencia <= 0) return;
 		this.agencia = agencia;
 	}
 	public int getAgencia() {
