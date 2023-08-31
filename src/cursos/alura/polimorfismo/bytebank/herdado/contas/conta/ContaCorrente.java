@@ -1,6 +1,8 @@
 package cursos.alura.polimorfismo.bytebank.herdado.contas.conta;
 
-public class ContaCorrente extends Conta {
+import cursos.alura.polimorfismo.bytebank.herdado.contas.utils.taxCalculator.Tributavel;
+
+public class ContaCorrente extends Conta implements Tributavel {
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero);
 	}
@@ -11,5 +13,8 @@ public class ContaCorrente extends Conta {
 	@Override
 	public void depositar(double valor) {
 		super.saldo += valor;
+	}
+	public double getImposto() {
+		return super.getSaldo()*0.01;
 	}
 }

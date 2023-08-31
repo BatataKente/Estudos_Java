@@ -1,8 +1,11 @@
-package cursos.alura.polimorfismo.bytebank.herdado.contas;
+package cursos.alura.polimorfismo.bytebank.herdado.contas.testes;
+import com.sun.java_cup.internal.internal_error;
+
 import cursos.alura.polimorfismo.bytebank.herdado.contas.conta.*;
 
 public class TesteContas {
 	public static void main(String[] args) {
+		
 		ContaCorrente contaCorrente = new ContaCorrente(111, 111);
 		contaCorrente.depositar(100);
 		
