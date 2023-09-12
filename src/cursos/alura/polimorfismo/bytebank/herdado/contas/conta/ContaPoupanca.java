@@ -8,4 +8,7 @@ public class ContaPoupanca extends Conta {
 	public void depositar(double valor) {
 		super.saldo += valor;
 	}
+	public String toString() {
+		return super.toString().replace(this.getClass().getSimpleName(), "Conta Poupanca");
+	}
 }

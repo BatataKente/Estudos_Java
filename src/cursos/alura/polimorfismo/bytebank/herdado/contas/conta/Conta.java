@@ -1,27 +1,41 @@
 package cursos.alura.polimorfismo.bytebank.herdado.contas.conta;
 
+import cursos.alura.polimorfismo.bytebank.herdado.contas.exception.SaldoInsuficienteException;
+
+/**
+ * Classe que representa uma conta
+ * @author djunqueira
+ */
 public abstract class Conta {
 	private static int total;
 	protected double saldo;
 	private int agencia = 1, numero;
 	private Cliente titular;
+	/**
+	 * Construtor para inicializar a conta
+	 * @param agencia
+	 * @param numero
+	 */
 	public Conta(final int agencia, final int numero) {
 		this.setAgencia(agencia);
 		this.setNumero(numero);
 		total++;
 	}
 	public abstract void depositar(final double valor);
-	public boolean sacar(final double valor) {
-		if(this.saldo < valor) return false;
+	/**
+	 * Valor precisa ser maior que o saldo
+	 * @param valor
+	 * @throws SaldoInsuficienteException
+	 */
+	public void sacar(final double valor) throws SaldoInsuficienteException {
+		if(this.saldo < valor) throw new SaldoInsuficienteException(
+				String.format("Não tem saldo suficiente para poder sacar o valor: R$ %.2f", valor)
+		);
 		this.saldo -= valor; 
-		return true;
 	}
-	public boolean transferir(final double valor, final Conta recebedor) {
-		if(this.sacar(valor)) {
-			recebedor.depositar(valor);
-			return true;
-		}
-		return false;
+	public void transferir(final double valor, final Conta recebedor) throws SaldoInsuficienteException {
+		this.sacar(valor);
+		recebedor.depositar(valor);
 	}
 	public double getSaldo() {
 		return saldo;
@@ -51,7 +65,9 @@ public abstract class Conta {
 	}
 	public String toString() {
 		return (
-				"Saldo da conta: " + 
+				this.getClass().getSimpleName() + ": Numero: " + getNumero() + ";" +
+				": Agencia: " + getAgencia() + ";" +
+				" Saldo da conta: " + 
 				String.format(
 						"%.2f", new Object[] {new Double(getSaldo())}
 				)

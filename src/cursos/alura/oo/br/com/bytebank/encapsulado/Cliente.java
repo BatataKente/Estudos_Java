@@ -1,10 +1,5 @@
-package cursos.alura.polimorfismo.bytebank.herdado.contas.conta;
+package cursos.alura.oo.br.com.bytebank.encapsulado;
 
-/**
- * Classe representa o cliente no bytebank
- * @author djunqueira
- * @version 0.1
- */
 public class Cliente {
 	private String nome, profissao, cpf;
 	public String getNome() {
