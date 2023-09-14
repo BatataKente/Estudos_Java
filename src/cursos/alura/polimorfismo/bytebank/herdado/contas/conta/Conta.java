@@ -7,6 +7,7 @@ import cursos.alura.polimorfismo.bytebank.herdado.contas.exception.SaldoInsufici
  * @author djunqueira
  */
 public abstract class Conta {
+	
 	private static int total;
 	protected double saldo;
 	private int agencia = 1, numero;
@@ -33,44 +34,64 @@ public abstract class Conta {
 		);
 		this.saldo -= valor; 
 	}
+	
 	public void transferir(final double valor, final Conta recebedor) throws SaldoInsuficienteException {
 		this.sacar(valor);
 		recebedor.depositar(valor);
 	}
+	
 	public double getSaldo() {
 		return saldo;
 	}
+	
 	public static int getTotal() {
 		return total;
 	}
+	
 	public int getNumero() {
 		return numero;
 	}
+	
 	public void setNumero(int numero) {
 		if(numero < 0) return;
 		this.numero = numero;
 	}
+	
 	public void setAgencia(int agencia) {
 		if(agencia <= 0) return;
 		this.agencia = agencia;
 	}
+	
 	public int getAgencia() {
 		return agencia;
 	}
+	
 	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
+	
 	public Cliente getTitular() {
 		return titular;
 	}
+	
 	public String toString() {
 		return (
 				this.getClass().getSimpleName() + ": Numero: " + getNumero() + ";" +
-				": Agencia: " + getAgencia() + ";" +
+				" Agencia: " + getAgencia() + ";" +
 				" Saldo da conta: " + 
 				String.format(
 						"%.2f", new Object[] {new Double(getSaldo())}
 				)
+		);
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Conta)) return false;
+		Conta conta = (Conta) obj;
+		return (
+				getAgencia() == conta.getAgencia() &&
+				getNumero() == conta.getNumero()
 		);
 	}
 }

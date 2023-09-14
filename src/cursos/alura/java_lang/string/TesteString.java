@@ -1,4 +1,4 @@
-package cursos.alura.java_lang.object_e_string;
+package cursos.alura.java_lang.string;
 
 import com.sun.java_cup.internal.internal_error;
 

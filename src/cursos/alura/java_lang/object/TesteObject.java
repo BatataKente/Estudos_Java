@@ -1,8 +1,8 @@
-package cursos.alura.java_lang.object_e_string;
+package cursos.alura.java_lang.object;
 
 import cursos.alura.polimorfismo.bytebank.herdado.contas.conta.*;
 
-public class Teste {
+public class TesteObject {
 	public static void main(String[] args) {
 //		System.out.println("x");
 //		System.out.println(3);
