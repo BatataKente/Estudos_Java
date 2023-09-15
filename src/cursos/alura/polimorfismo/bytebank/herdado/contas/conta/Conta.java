@@ -6,7 +6,7 @@ import cursos.alura.polimorfismo.bytebank.herdado.contas.exception.SaldoInsufici
  * Classe que representa uma conta
  * @author djunqueira
  */
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta> {
 	
 	private static int total;
 	protected double saldo;
@@ -83,6 +83,10 @@ public abstract class Conta {
 						"%.2f", new Object[] {new Double(getSaldo())}
 				)
 		);
+	}
+	
+	public int compareTo(Conta conta) {
+		return Double.compare(getSaldo(), conta.getSaldo());
 	}
 	
 	@Override

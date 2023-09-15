@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import cursos.alura.polimorfismo.bytebank.herdado.contas.conta.Conta;
 import cursos.alura.polimorfismo.bytebank.herdado.contas.conta.ContaCorrente;
 
-public class Teste {
+public class TesteArrayList1 {
 	public static void main(String[] args) {
 		ArrayList<Conta> contas = new ArrayList<Conta>();
 		
