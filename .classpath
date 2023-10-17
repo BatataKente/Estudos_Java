@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdom/jdom.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/caelum-stella-core-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/moneta-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/jackson-core-2.6.3.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/jackson-jr-objects-2.6.3.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/javax.ws.rs-api-2.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/money-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/viacep-1.2.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jdom/jdom.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/caelum-stella-core-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/moneta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/jackson-core-2.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/jackson-jr-objects-2.6.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/money-api-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/viacep-1.2.0.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/hamcrest-all-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/javax.annotation-api-1.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/mockito-all-1.10.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/hamcrest-all-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/javax.annotation-api-1.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="C:/workspaceEFU/Estudos_Java/lib/jfugue-5.0.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
