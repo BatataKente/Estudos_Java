@@ -1,11 +1,6 @@
 package exercices.java_exercices_OO.structured_logic.loops;
 
-import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
-import java.util.concurrent.Executor;
-import java.util.function.Consumer;
 
 public class Loops {
     public static void main(String[] args) {
@@ -17,7 +12,7 @@ public class Loops {
 //            • Receber um inteiro N do usuário
 //            • Testar se este inteiro é primo ou não e informar
     private static void _1() {
-        var ex1primos = new Ex1Primos(4);
+    	Ex1Primos ex1primos = new Ex1Primos(4);
         ex1primos.showNumberIsPrime();
         Ex1Primos.showNumberIsPrime(3);
         Ex1Primos.showPrimesAtInterval(0, 100);
@@ -29,19 +24,19 @@ public class Loops {
 //            • Pedir novos palpites até que o usuário acerte e, depois disso, mostrar em
 //    quantas tentativas ele acertou.
     private static void _2(Scanner input) {
-        var randomNumber = Ex2Sorteio.generateNumber(0, 1000);
-        var numberOfAttempts = 1;
+        int randomNumber = Ex2Sorteio.generateNumber(0, 1000);
+        int numberOfAttempts = 1;
         do {
             System.out.println("Foi gerado um número aleatório de 0 a 1000, tente descobrir qual é.");
             System.out.print("Informe um número: ");
             try {
-                var number = Integer.parseInt(input.next());
+            	int number = Integer.parseInt(input.next());
                 if(number == randomNumber) {
                     System.out.println("Voce acertou!!!");
-                    System.out.printf("E precisou de %d tentativas pra isso.", numberOfAttempts);
+                    System.out.print("E precisou de " + numberOfAttempts + "%d tentativas pra isso.");
                     break;
                 }
-                var numberIs = number > randomNumber? "maior" : "menor";
+                String numberIs = number > randomNumber? "maior" : "menor";
                 System.out.println("Voce errou!! Esse número é " + numberIs + " que o número gerado.");
                 numberOfAttempts++;
             } catch (Exception exception) {
@@ -56,21 +51,25 @@ public class Loops {
     private static void _3(Scanner input) {
         do {
             System.out.print("Informe o primeiro número: ");
-            var text_1 = input.next();
+            String text_1 = input.next();
             System.out.print("Informe o segundo número: ");
-            var text_2 = input.next();
+            String text_2 = input.next();
             try {
                 Integer.parseInt(text_1);
                 Integer.parseInt(text_2);
-                var firstPermutesSecond = "";
-                var secondPermutesFirst = "";
+                String firstPermutesSecond = "";
+                String secondPermutesFirst = "";
 
-                for (char character : text_1.toCharArray()) {
+                final char[] text_1CharArray = text_1.toCharArray();
+                for (int i = 0; i < text_1CharArray.length; i++) {
+                	final char character = text_1CharArray[i];
                     if(!text_2.contains(String.valueOf(character))) {
                         firstPermutesSecond = " não"; break;
                     }
                 }
-                for (char character : text_2.toCharArray()) {
+                final char[] text_2CharArray = text_2.toCharArray();
+                for (int i = 0; i < text_2CharArray.length; i++) {
+                	final char character = text_2CharArray[i];
                     if(!text_1.contains(String.valueOf(character))) {
                         secondPermutesFirst = " não"; break;
                     }
@@ -94,21 +93,20 @@ public class Loops {
 //            • Dicas: usar o método getTimeInMillis da classe Calendar ou o método
 //    nanoTime da classe System.
     static void _4(Scanner input) {
-        Random random = new Random();
         System.out.println("Bem-vindo ao teste de reflexos!");
         System.out.println("Pressione Enter quando estiver pronto...");
         input.nextLine();
         try {
             Thread.sleep(Ex2Sorteio.generateNumber(0, 5000));
             System.out.println("Agora!");
-            var a = Ex2Sorteio.generateNumber(0, 10);
-            var b = Ex2Sorteio.generateNumber(0, 10);
-            System.out.printf("Quanto é %d vezes %d? ", a, b);
-            var askTime = System.currentTimeMillis();
-            var response = Integer.parseInt(input.next());
+            int a = Ex2Sorteio.generateNumber(0, 10);
+            int b = Ex2Sorteio.generateNumber(0, 10);
+            System.out.print("Quanto é " + a + " vezes " + b + "? ");
+            long askTime = System.currentTimeMillis();
+            int response = Integer.parseInt(input.next());
             float responseTime = System.currentTimeMillis() - askTime;
             System.out.println("Sua resposta foi: " + response + " no tempo " + responseTime/1000);
-            var result = a * b;
+            double result = a * b;
             System.out.println("E está " + (result == response? "correto" : "incorreto"));
         } catch (Exception exception) {
             System.out.println(exception);
