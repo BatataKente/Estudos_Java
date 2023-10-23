@@ -21,5 +21,6 @@
 	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/junit-4.12.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/workspaceFDDB/Estudos_Java/lib/mockito-all-1.10.19.jar"/>
 	<classpathentry kind="lib" path="C:/workspaceEFU/Estudos_Java/lib/jfugue-5.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/workspaceEFU/Estudos_Java/lib/gson-2.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
