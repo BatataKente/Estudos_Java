@@ -15,6 +15,8 @@ public class CalculaRaizDoQuadradoPerfeito {
         System.out.println(garotinhaCalculandoRaizDoQuadradoPerfeito(100));
         System.out.println();
         System.out.println(garotinhaCalculandoRaizDoQuadradoPerfeito(169));
+        System.out.println();
+        System.out.println(garotinhaCalculandoRaizDoQuadradoPerfeito(289));
 	}
 	
 	private static String garotinhaCalculandoRaizDoQuadradoPerfeito(final double number) {
@@ -24,31 +26,31 @@ public class CalculaRaizDoQuadradoPerfeito {
 		if(1 == number) return "A raiz é " + number;
 		
 		double testNumber = 2;
-		double tempNumber = testNumber;
+		double result = testNumber;
 		
 		System.out.printf(
-				"%." + casasPosVirgula + "f^2 = %." + casasPosVirgula + "f\n", tempNumber, tempNumber*tempNumber
+				"%." + casasPosVirgula + "f^2 = %." + casasPosVirgula + "f\n", result, result*result
 		);
 		
 		testNumber *= testNumber;
 		
-		if(testNumber == number) return "A raiz é " + tempNumber;
+		if(testNumber == number) return "A raiz é " + result;
 		
 		while(testNumber < number) {
 			
 			System.out.printf(
-					"%." + casasPosVirgula + "f + %." + casasPosVirgula + "f + %." + casasPosVirgula + "f = ", testNumber, tempNumber, tempNumber + 1
+					"%." + casasPosVirgula + "f + %." + casasPosVirgula + "f + %." + casasPosVirgula + "f = ", testNumber, result, result + 1
 			);
 			
-			testNumber = testNumber + tempNumber + (tempNumber + 1);
+			testNumber = testNumber + result + (result + 1);
 			
 			System.out.printf(
 					"%." + casasPosVirgula + "f\n", testNumber
 			);
 			
-			tempNumber++;
+			result++;
 			
-			if(testNumber == number) return String.format("A raiz é %.1f", tempNumber);
+			if(testNumber == number) return String.format("A raiz é %.1f", result);
 		}
 		
 		return "Não foi possivel encontrar a raiz, não é quadrado perfeito.";
