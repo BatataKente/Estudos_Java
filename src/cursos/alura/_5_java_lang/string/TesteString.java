@@ -1,7 +1,5 @@
 package cursos.alura._5_java_lang.string;
 
-import com.sun.java_cup.internal.internal_error;
-
 public class TesteString {
 	public static void main(String[] args) {
 		int a = 3;

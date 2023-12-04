@@ -4,8 +4,12 @@ import cursos.alura._1_2_design_patterns._1.Orcamento;
 
 public class ICCC extends Imposto {
 
-	public ICCC(Imposto next) {
+	public ICCC() {
 		super(null);
+	}
+
+	public ICCC(Imposto next) {
+		super(next);
 	}
 
 	@Override

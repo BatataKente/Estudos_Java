@@ -1,9 +1,5 @@
 package cursos.alura._8_java_brasil.cnpj;
 
-import br.com.caelum.stella.validation.CNPJValidator;
-import br.com.caelum.stella.validation.TituloEleitoralValidator;
-import cursos.alura._8_java_brasil.Documento;
-
 public class TesteCnpj {
 	public static void main(String[] args) {
 		final String cnpj = "66.040.316/0001-15";
@@ -21,7 +17,7 @@ public class TesteCnpj {
 //		} catch (InvalidStateException e) {
 //			System.out.println("TÍTULO INVÁLIDO : " + e);
 //		}
-		Documento.validar(new CNPJValidator(), cnpj);
-		Documento.validar(new TituloEleitoralValidator(), "Título Eleitoral", tituloEleitoral);
+//		Documento.validar(new CNPJValidator(), cnpj);
+//		Documento.validar(new TituloEleitoralValidator(), "Título Eleitoral", tituloEleitoral);
 	}
 }
