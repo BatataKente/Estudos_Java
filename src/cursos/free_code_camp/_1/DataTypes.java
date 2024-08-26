@@ -2,7 +2,7 @@ package cursos.free_code_camp._1;
 
 public class DataTypes {
 	
-	public static void main(String[] arguments) {
+	public static void main(Strings[] arguments) {
 		_3();
 	}
 	

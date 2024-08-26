@@ -4,7 +4,7 @@ public class Variables {
 	
 	static int age = 87;
 	
-	public static void main(String[] arguments) {
+	public static void main(Strings[] arguments) {
 		System.out.println(String.format("I am %d years old.", age));
 	}
 	
