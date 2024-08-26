@@ -2,8 +2,6 @@ package cursos.alura._1_2_design_patterns._3;
 
 import java.util.List;
 
-import org.jfugue.player.Player;
-
 public class Piano {
 	
 	public void tocar(List<Nota> notas) {

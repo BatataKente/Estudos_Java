@@ -4,6 +4,10 @@ import cursos.alura._1_2_design_patterns._1.Orcamento;
 
 public class ISS extends Imposto {
 
+	public ISS() {
+		super(null);
+	}
+
 	public ISS(final Imposto next) {
 		super(next);
 	}

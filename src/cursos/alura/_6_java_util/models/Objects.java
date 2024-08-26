@@ -2,10 +2,6 @@ package cursos.alura._6_java_util.models;
 
 import java.util.Arrays;
 
-import org.omg.CORBA.PRIVATE_MEMBER;
-
-import cursos.alura._3_polimorfismo.bytebank.herdado.contas.conta.Conta;
-
 public class Objects<T> {
 	
 	private Object[] objects;

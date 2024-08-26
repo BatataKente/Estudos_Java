@@ -1,6 +1,9 @@
 package cursos.alura._1_2_design_patterns._1;
 
-import cursos.alura._1_2_design_patterns._1.imposto.*;
+import cursos.alura._1_2_design_patterns._1.imposto.ICCC;
+import cursos.alura._1_2_design_patterns._1.imposto.ICMS;
+import cursos.alura._1_2_design_patterns._1.imposto.ISS;
+import cursos.alura._1_2_design_patterns._1.imposto.Imposto;
 
 public class TesteDeImpostos {
 	public static void main(String[] args) {

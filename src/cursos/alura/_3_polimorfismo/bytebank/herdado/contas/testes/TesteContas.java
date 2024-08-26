@@ -1,7 +1,6 @@
 package cursos.alura._3_polimorfismo.bytebank.herdado.contas.testes;
-import com.sun.java_cup.internal.internal_error;
-
-import cursos.alura._3_polimorfismo.bytebank.herdado.contas.conta.*;
+import cursos.alura._3_polimorfismo.bytebank.herdado.contas.conta.ContaCorrente;
+import cursos.alura._3_polimorfismo.bytebank.herdado.contas.conta.ContaPoupanca;
 import cursos.alura._3_polimorfismo.bytebank.herdado.contas.exception.SaldoInsuficienteException;
 
 public class TesteContas {

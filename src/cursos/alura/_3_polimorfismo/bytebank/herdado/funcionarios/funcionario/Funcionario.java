@@ -1,7 +1,5 @@
 package cursos.alura._3_polimorfismo.bytebank.herdado.funcionarios.funcionario;
 
-import cursos.alura._1_1_solid.coesao.Cargo;
-
 public abstract class Funcionario {
 	private String nome;
 	private String cpf;

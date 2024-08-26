@@ -8,6 +8,6 @@ public class QualCollectionUsar {
 	public static void main(String[] args) {
 		Collection<Aluno> alunos = new HashSet<Aluno>();
 		alunos.size();
-		alunos.get(56);
+//		alunos.get(56);
 	}
 }

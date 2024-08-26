@@ -1,5 +1,8 @@
 package cursos.alura._1_2_design_patterns._8;
 
+import cursos.alura._1_1_SOLID.acoplamento._1.Fatura;
+import experiences.api_request_manager.spring_boot.Cliente;
+
 public class EmpresaFacade {
 
 	protected EmpresaFacade() {}

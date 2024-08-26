@@ -1,11 +1,7 @@
 package cursos.alura._8_java_brasil.cep;
 
-import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import com.github.gilbertotorrezan.viacep.se.ViaCEPClient;
-import com.github.gilbertotorrezan.viacep.shared.ViaCEPEndereco;
 
 public class Cep {
 	public static void main(String[] args) {
